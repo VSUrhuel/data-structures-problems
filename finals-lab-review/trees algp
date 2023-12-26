@@ -1,0 +1,50 @@
+level
+	if root is NULL
+		return -1;
+	if root->data == data
+		return 0;
+	int l = counts level(root->left),
+		r = counts level(root->right);
+	int max = (l > r) ? l : r;
+	if max is greater than -1
+		return max+1;
+	else
+		return -1;
+
+height
+	if root is NULL
+		return -1;
+	if root->left and root->right are NULL
+		return 1;
+	else
+		int l = height(root->left),
+			r = height(root->right);
+		return (l>r) ? l+1; r+1;
+
+printAncesor
+	if root is NULL
+		return -1;
+	if(data == root->data)
+		return 1;
+	if printAncestor(root->left, data) or printAncestor(root->right, data) are equal to 1
+		print root->data
+		return 1
+
+countLeaves
+	if root is NULL
+		return -1;
+	if root->left and root->right are NULL
+		return 1;
+	else
+		int l = countLeaves(root->left);
+		int r = countLeaves(root->right);
+		return l + r;
+
+countInternalNode
+	if root is NULL
+		return -1;
+	if root->left and root->right are NULL
+		return 0
+	int l = countInternalNode(root->left);
+	int r = countInternalNode(root->right);
+	return l+r+1;

@@ -1,0 +1,12 @@
+SLL createSLL();
+int addBetweenXandY(SLL list, int x, int y, int data);
+void replaceXwithY(SLL list, int x, int y);
+SLL createSLLOnes(int n);
+int addLast(SLL list, int data
+void flipFrontEnd(SLL list);
+SLL createSLLZeroes(int n);
+int addElementAfterX(SLL list, int x, int data);
+int checkPairs(SLL list);
+int addBeforeX(SLL list, int x, int data);
+SLL createSLL(DLL list);
+int addFirst(SLL list, int data);

@@ -1,0 +1,41 @@
+ADT - Abstract Data Type
+1.it is the mathematical model for types and structures
+2. uses logical representation of data when managed
+3. uses data structures to manage data through a design set of operations
+
+Stack
+1. It is an ADT (Abstract Data Type), that is a LIFO (Last In, First Out)
+2. It is linear and can be represented through an array or any form of linked list
+3. Its main operations includes push and pop
+	push - inserts element at the top of the stack
+	pop - removes element at the top of the stock
+4. Its auxillary operations includes peek, isFull, isEmpty
+	peek - returns the top element of the stack
+	isFull - returns 1 if the stack is full otherwise 0
+	isEmpty - returns 1 if the stack is empty otherwise 0
+5. The asymptotic complexity of these operations can be excuted at O(1) constant time
+6. The stack is commonly used on the following
+	Backtracking Algorithms
+	Expression Evaluation (i.e. Mathematical, Logical)
+	Syntax Checking
+	Memory Management
+	Undo/Redo function on Desktop Application
+
+Queue 
+1. It is an ADT, that follows the FIFO (First In, First Out)
+2. It is linear and can be represented through an array or any form of linked list
+3. Its main operations includes enqueue and dequeue
+	enqueue - inserts element at the rear of the queue
+	dequeue - removes element at the front of the queue
+4. Its auxillary operatiosn includes getFront, isFull, isEmpty
+	getFront - returns the front element of the queue
+	isFull - returns 1 if the queue is full otherwise 0
+	isEmpty - return 1 if the queue is empty otherwise 0
+5. The asymptotic complexity of these operations can be executed at constant time O(1)
+6. The queue's application includes the following
+	Processing requests on a CPU scheduling or disk scheduling
+	Handling website traffic and hardware or real-time systems interrupts
+	Routers and switches in networking
+	Maintaining the playlist in media players
+	
+
