@@ -1,0 +1,56 @@
+I. Create a program and its flowchart of the following requirements:
+	1. Program that prints the Prime Number between 100 and 1000;
+	2. Program that calculate the money after four years, with 1800.00 deposit at a rate of 2% and compounded annually, using the formula of Pe^(rt), where P is the principal amount r is the rate and t is the time.
+	3. Given the following values in inches, display the Area of a Trapezoid:
+		a. base1 = 4, base2 = 2, height = 4;
+		b. base1 = 7, base2 = 3, height = 5;
+		c. base1 = 2, base2 = 5, height = 7;
+
+II. Trace the output and explain the program:
+	1. int a=0, b=7, c=1;
+
+		while(a<10)
+		{
+			c *= b;;
+			display c;
+			a++;
+		}
+		display c;
+		END
+
+	2. int a = 2, b = 10, c = 0, d = 28;
+
+		while(d > 0)
+		{
+			d -= a;
+			c++;
+		}
+		display c;
+		END;
+
+III. Fill the blanks in the code and explain the program:
+	1. Program that displays the sum of reciprocal of a number in range:
+		int a = 1, b = 10;
+		float sum = __;
+
+		while(____)
+		{
+			sum += ____;
+			b--;
+		}
+		display sum;
+		END;
+
+	2. Program that displays the factorial of a number;
+		int a = 7, prod = __;
+
+		while(a > 0);
+		{
+			____;
+			____;
+		}
+		______;
+		END;
+
+
+
